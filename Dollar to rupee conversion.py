@@ -16,3 +16,7 @@ print("Corressponding amount in rupees: ₹",a)
 print("-"*45)
 print("Using non-void function 👇")
 dollar_to_rupee1(amount, conversion_price)
+
+print("Press any key to Quit: ",end='')
+a = input()
+quit()

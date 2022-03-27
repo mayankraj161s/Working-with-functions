@@ -11,3 +11,7 @@ def randoms(n):
 # __main__
 n = int(input("Enter n: "))
 print("Random {}-digit number is".format(n),randoms(n))
+
+print("Press any key to Quit: ",end='')
+a = input()
+quit()

@@ -6,3 +6,7 @@ def n_root(x, n=2):
 x = float(input("Enter value of base x: "))
 n = float(input("Enter value of n: "))
 print("{}th root of x is".format(n),n_root(x, n))
+
+print("Press any key to Quit: ",end='')
+a = input()
+quit()

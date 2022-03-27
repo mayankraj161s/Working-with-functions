@@ -11,3 +11,7 @@ u_lim = int(input("Enter upper limit: "))
 for i in range(3):
     r = randoms(l_lim, u_lim)
     print("Number {}:".format(i+1),r)
+
+print("Press any key to Quit: ",end='')
+a = input()
+quit()
